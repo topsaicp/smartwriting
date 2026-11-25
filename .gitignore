@@ -1,0 +1,14 @@
+node_modules/
+artifacts/
+*.zip
+*.tar.gz
+.DS_Store
+.sites/
+.openai/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite
+*.sqlite-*

@@ -2,6 +2,14 @@
 
 参考 Paperpal 的工作区组织方式，为留学辅导场景设计的独立静态原型。
 
+## 在线体验
+
+[打开慧策学伴原型](https://topsaicp.github.io/smartwriting/)
+
+网站通过 GitHub Pages 发布。将 `dist/` 中的修改推送到 `main` 分支后，GitHub Actions 会自动更新网站；也可在仓库 Actions 的 `Deploy ScholarFlow to GitHub Pages` 中选择 `Run workflow` 手动发布。部署内容仅包含 `dist/`，无需配置 API 密钥。
+
+部署进度可在 [Actions](https://github.com/topsaicp/smartwriting/actions/workflows/deploy-pages.yml) 查看。在线版本同样使用预设演示资料，数据只保存在访问者自己的浏览器。
+
 ## 打开
 
 直接打开 `dist/index.html` 即可体验。推荐使用本机服务：
